@@ -10,11 +10,11 @@ This is a simple Node.js-based calculator API microservice that provides several
     - Query Parameters:
         - `base`: The base number (required).
         - `exponent`: The exponent (required).
-    - Example Request:
+    - Request:
 
       curl "http://localhost:3000/exponentiation?base=2&exponent=3"
 
-    - Example Response:
+    - Response:
 
       {"result": 8}
       
@@ -24,11 +24,11 @@ This is a simple Node.js-based calculator API microservice that provides several
     - Method: `GET`
     - Query Parameters:
         - `number`: The number to calculate the square root of (required).
-    - Example Request:
+    - Request:
       
       curl "http://localhost:3000/square-root?number=16"
       
-    - Example Response:
+    - Response:
       
       {"result": 4}
       
@@ -39,11 +39,11 @@ This is a simple Node.js-based calculator API microservice that provides several
     - Query Parameters:
         - `dividend`: The dividend (required).
         - `divisor`: The divisor (required).
-    - Example Request:
+    - Request:
    
       curl "http://localhost:3000/modulo?dividend=10&divisor=3"
       
-    - Example Response:
+    - Response:
    
       {"result": 1}
     
@@ -51,11 +51,11 @@ This is a simple Node.js-based calculator API microservice that provides several
 4. Default Route
     - Route: `/`
     - Method: `GET`
-    - Example Request:
+    - Request:
       
       curl "http://localhost:3000/"
   
-    - Example Response:
+    - Response:
    
       Welcome to the Calculator API
   
@@ -70,17 +70,17 @@ This is a simple Node.js-based calculator API microservice that provides several
 
 # Installation and Setup
 
-1. Clone this repository:
+1. Cloned this repository:
 
     git clone https://github.com/username/sit323-2025-prac4c.git
 
 
-2. Navigate to the project directory:
+2. Navigated to the project directory:
 
     cd sit323-2025-prac4c
   
 
-3. Install dependencies:
+3. Installed dependencies:
 
     npm install
 
